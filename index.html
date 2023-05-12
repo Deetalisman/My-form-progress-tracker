@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROGRESS TRACKER</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/a1f444943a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section>
+        <header>
+             <div class="header">
+                <h1>My Skill Level</h1>
+                <p>Answer following question to begin your plan</p>
+             </div>
+            <div class="ham">
+                <span> </span>
+                <span> </span>
+                <span> </span>
+            </div>
+        </header>
+        <main>
+            <div class="biodata">
+                <ul class="tab">
+                    <li class="bio-list active" data-target="#name" >
+                        <div class="name">
+                            <h4>Your Name</h4>
+                            <p>First,middle & Last name</p>
+                        </div>
+                        <div class="symbol active">
+                            <i class="fa-solid fa-user"></i>
+                        </div>
+                    </li>
+                    <li class="bio-list" data-target="#city">
+                        <div class="name">
+                            <h4>City</h4>
+                            <p>Location</p>
+                        </div>
+                        <div class="symbol">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                    </li>
+                    <li class="bio-list" data-target="#number">
+                        <div class="name">
+                            <h4>Telephone</h4>
+                            <p>Number</p>
+                        </div>
+                        <div class="symbol">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                    </li>
+                    <li class="bio-list" data-target="#address">
+                        <div class="name">
+                            <h4>House</h4>
+                            <p>Address</p>
+                        </div>
+                        <div class="symbol">
+                            <i class="fa-solid fa-house"></i>
+                        </div>
+                    </li>
+                    <li class="bio-list" data-target="#country">
+                        <div class="name">
+                            <h4>Country Of</h4>
+                            <p>Residence</p>
+                        </div>
+                        <div class="symbol">
+                            <i class="fa-solid fa-earth-americas"></i>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="step">
+                <div class="step-one active" id="name">
+                    <div class="details">
+                        <p>Step 1/5</p>
+                        <h1>Let's start with your name</h1>
+                        <p>Please fill in the details below</p>
+                    </div>
+                    <form action="">
+                        <p>Enter your name</p>
+                        <input type="text" id="input-det">
+                        <input type="submit" value="NEXT STEP" id="next"> 
+                    </form>
+                </div>
+                <div class="step-one" id="city">
+                    <div class="details">
+                        <p>Step 2/5</p>
+                        <h1>Next is your location</h1>
+                        <p>Please fill in the details below</p>
+                    </div>
+                    <form action="">
+                        <p>Enter your city</p>
+                        <input type="text" id="input-det">
+                        <input type="submit" value="NEXT STEP" id="next"> 
+                    </form>
+                </div>
+                <div class="step-one" id="number">
+                    <div class="details">
+                        <p>Step 3/5</p>
+                        <h1>Telephone Number</h1>
+                        <p>Please fill in the details below</p>
+                    </div>
+                    <form action="">
+                        <p>Enter your Telephone number</p>
+                        <input type="text" id="input-det">
+                        <input type="submit" value="NEXT STEP" id="next"> 
+                    </form>
+                </div>
+                <div class="step-one" id="address">
+                    <div class="details">
+                        <p>Step 4/5</p>
+                        <h1>House Address</h1>
+                        <p>Please fill in the details below</p>
+                    </div>
+                    <form action="">
+                        <p>Enter your address</p>
+                        <input type="text" id="input-det">
+                        <input type="submit" value="NEXT STEP" id="next"> 
+                    </form>
+                </div>
+                <div class="step-one" id="country">
+                    <div class="details">
+                        <p>Step 5/5</p>
+                        <h1>Country of Residence</h1>
+                        <p>Please fill in the details below</p>
+                    </div>
+                    <form action="">
+                        <p>Enter your country</p>
+                        <input type="text" id="input-det">
+                        <input type="submit" value="NEXT STEP" id="next"> 
+                    </form>
+                </div>
+            </div>
+        </main>
+    </section>
+    <script src="./index.js"></script>
+</body>
+</html>
